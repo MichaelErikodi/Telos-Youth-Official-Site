@@ -588,7 +588,7 @@ h1 {
         text-align: center;
         color: white;
         font-size: 16px;
-        margin-top: 1%;
+        margin-top: 10%;
         animation: slide-up 1s;
     }
     
@@ -597,7 +597,7 @@ h1 {
         text-align: center;
         color: white;
         font-size: 10px;
-        margin-top: 45%;
+        margin-top: 55%;
         animation: slide-up 1s;
     }
     
