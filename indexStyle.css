@@ -153,7 +153,8 @@ nav img {
 
 .aboutus-text {
     font-family: 'Fugaz One', cursive;
-    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
     color: white;
     font-size: 28px;
     margin-left: 80px;
@@ -189,7 +190,8 @@ nav img {
 
 .team-text {
     font-family: 'Fugaz One', cursive;
-    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
     color: black;
     font-size: 28px;
     margin-left: 40px;
@@ -200,7 +202,8 @@ nav img {
 
 .ownership-info {
     font-family: 'Fugaz One', cursive;
-    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
     color: black;
     font-size: 28px;
     margin-left: 40px;
@@ -237,7 +240,8 @@ nav img {
 
 .CCtext {
     font-family: 'Fugaz One', cursive;
-    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
     color: white;
     font-size: 32px;
     margin-left: 40px;
@@ -273,13 +277,25 @@ nav img {
 
 .FFtext {
     font-family: 'Fugaz One', cursive;
-    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
     color: white;
     font-size: 28px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
     padding-bottom: 40px;
+}
+
+.centeredFFtext {
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-bottom: 20px;
 }
 
 .votenowbox {
@@ -408,7 +424,8 @@ h1 {
     
     .aboutus-text {
         font-family: 'Fugaz One', cursive;
-        text-align: center;
+        text-align: justify;
+        text-justify: inter-word;
         color: white;
         font-size: 28px;
         margin-left: 40px;
@@ -437,6 +454,8 @@ h1 {
     }
     
     .animated-logo {
+        display: block;
+        margin: 0 auto;
         width: 350px;
         height: 350px;
         margin-left: 200px;
@@ -444,7 +463,8 @@ h1 {
     
     .team-text {
         font-family: 'Fugaz One', cursive;
-        text-align: center;
+        text-align: justify;
+        text-justify: inter-word;
         color: black;
         font-size: 28px;
         margin-left: 20px;
@@ -455,7 +475,8 @@ h1 {
     
     .ownership-info {
         font-family: 'Fugaz One', cursive;
-        text-align: center;
+        text-align: justify;
+        text-justify: inter-word;
         color: black;
         font-size: 28px;
         margin-left: 20px;
@@ -492,7 +513,8 @@ h1 {
 
     .CCtext {
         font-family: 'Fugaz One', cursive;
-        text-align: center;
+        text-align: justify;
+        text-justify: inter-word;
         color: white;
         font-size: 28px;
         margin-left: 20px;
@@ -528,6 +550,18 @@ h1 {
     }
 
     .FFtext {
+        font-family: 'Fugaz One', cursive;
+        text-align: justify;
+        text-justify: inter-word;
+        color: white;
+        font-size: 28px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .centeredFFtext {
         font-family: 'Fugaz One', cursive;
         text-align: center;
         color: white;
@@ -624,7 +658,7 @@ h1 {
     
     .aboutus-text {
         font-family: 'Fugaz One', cursive;
-        text-align: center;
+        text-align: justify;
         color: white;
         font-size: 14px;
         margin-left: 20px;
@@ -660,7 +694,8 @@ h1 {
     
     .team-text {
         font-family: 'Fugaz One', cursive;
-        text-align: center;
+        text-align: justify;
+        text-justify: inter-word;
         color: black;
         font-size: 14px;
         margin-left: 10px;
@@ -671,7 +706,8 @@ h1 {
     
     .ownership-info {
         font-family: 'Fugaz One', cursive;
-        text-align: center;
+        text-align: justify;
+        text-justify: inter-word;
         color: black;
         font-size: 14px;
         margin-left: 10px;
@@ -708,7 +744,8 @@ h1 {
 
     .CCtext {
         font-family: 'Fugaz One', cursive;
-        text-align: center;
+        text-align: justify;
+        text-justify: inter-word;
         color: white;
         font-size: 14px;
         margin-left: 10px;
@@ -745,6 +782,18 @@ h1 {
     }
 
     .FFtext {
+        font-family: 'Fugaz One', cursive;
+        text-align: justify;
+        text-justify: inter-word;
+        color: white;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .centeredFFtext {
         font-family: 'Fugaz One', cursive;
         text-align: center;
         color: white;
