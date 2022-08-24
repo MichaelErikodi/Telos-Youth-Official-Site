@@ -234,8 +234,8 @@ nav img {
     font-family: 'Fugaz One', cursive;
     text-align: center;
     color: white;
-    font-size: 56px;
-    padding-top: 120px;
+    font-size: 48px;
+    padding-top: 90px;
 }
 
 .CCtext {
@@ -281,8 +281,8 @@ nav img {
     text-justify: inter-word;
     color: white;
     font-size: 28px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
     margin-top: 20px;
     padding-bottom: 40px;
 }
@@ -291,7 +291,7 @@ nav img {
     font-family: 'Fugaz One', cursive;
     text-align: center;
     color: white;
-    font-size: 14px;
+    font-size: 28px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
@@ -343,6 +343,13 @@ h1 {
     font-size: 50px;
     padding: 110px 110px;
     color: white;
+    transition: 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5)
 }
 
 @media (max-width:1260px) {
@@ -612,6 +619,13 @@ h1 {
         font-size: 50px;
         padding: 40px 40px;
         color: white;
+        transition: 0.3s ease;
+    }
+
+    .social-icon:hover {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5)
     }
 }
 
@@ -844,6 +858,13 @@ h1 {
         font-size: 25px;
         padding: 20px 20px;
         color: white;
+        transition: 0.3s ease;
+    }
+
+    .social-icon:hover {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5)
     }
 
 }
