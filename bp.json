@@ -1,0 +1,61 @@
+{
+    "producer_account_name": "telosyouthio",
+    "org": {
+      "candidate_name": "Telos Youth",
+      "website": "https://www.telosyouth.io/",
+      "code_of_conduct":"https://www.telosyouth.io/#codeofconduct",
+      "ownership_disclosure":"https://www.telosyouth.io/#ourteam",
+      "email":"telosyouth@gmail.com",
+      "github_user":"TelosYouth",
+      "chain_resources": "",
+      "other_resources": [],
+      "branding":{
+        "logo_256":"https://www.telosyouth.io/images/telosyouth.png",
+        "logo_1024":"https://www.telosyouth.io/images/telosyouth.png",
+        "logo_svg":"https://www.telosyouth.io/images/telosyouth.svg"
+      },
+      "location": {
+        "name": "Hertfordshire",
+        "country": "GB",
+        "latitude": 51.8098,
+        "longitude": 0.0723
+      },
+      "social": {
+        "twitter": "telosyouth",
+        "github":"TelosYouth"
+      }
+    },
+     "nodes": [
+    {
+      "location": {
+        "name": "Helsinki",
+        "country": "FI",
+        "latitude": 60.1699,
+        "longitude": 24.9384
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "Helsinki",
+        "country": "FI",
+        "latitude": 60.1699,
+        "longitude": 24.9384
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "telosyouth.io:9876"
+    },
+    {
+      "location": {
+        "name": "Helsinki",
+        "country": "FI",
+        "latitude": 60.1699,
+        "longitude": 24.9384
+      },
+      "node_type": "query",
+      "api_endpoint": "http://telosyouth.io",
+      "ssl_endpoint": "https://telosyouth.io",
+      "features": ["chain-api"]
+    }
+  ]
+}
